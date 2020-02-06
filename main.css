@@ -1,14 +1,48 @@
-p {
-    color: white;
-    text-align: center;
-    position: relative;
-    top: 350px;
-    font-size: 2em;
+body {
+    background-color: #008080;
+    width: 1000px;
 }
 
-.background {
-    background: black;
-    position: relative;
+.socials {
+    margin-top: 0px;
+    left: 300px;
+}
+
+.sports img {
+    width: 100px;
+}
+
+.leafs {
+    margin-top: 0;
+}
+
+.ticats {
+    width: 100px;
+    margin-left: 750;
+}
+
+.bills {
+    margin-bottom: 0;
+    margin-left: 750;
+}
+
+.kevin {
+    /* position: relative; */
+    margin-top: 30px;
+    width: 200px;
+}
+
+.success {
+    font-style: em;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-left: 100px;
+    top: -10px;
+}
+
+footer {
     width: 100%;
-    height: 100%;
+    height: 100px;
+    margin-bottom: 0px;
+    background: black;
 }
