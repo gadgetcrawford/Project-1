@@ -13,7 +13,7 @@ Your personal site must be responsive and include:
 - Some form of site navigation (eg a hamburger menu).
 - More than one page (or for a single-page site, scroll navigation).
 
-It **should not include placeholder content**. If you are struggling for content, speak to Jonanthan, or one of the DM instructors or students.
+
 
 ## Technical requirements
 
