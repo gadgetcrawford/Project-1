@@ -1,48 +1,158 @@
-body {
-    background-color: #008080;
-    width: 1000px;
-}
-
-.socials {
-    margin-top: 0px;
-    left: 300px;
-}
-
-.sports img {
-    width: 100px;
-}
-
-.leafs {
-    margin-top: 0;
-}
-
-.ticats {
-    width: 100px;
-    margin-left: 750;
-}
-
-.bills {
-    margin-bottom: 0;
-    margin-left: 750;
-}
-
-.kevin {
-    /* position: relative; */
-    margin-top: 30px;
-    width: 200px;
-}
-
-.success {
-    font-style: em;
-    font-size: 1.2rem;
-    max-width: 600px;
-    margin-left: 100px;
-    top: -10px;
-}
-
-footer {
-    width: 100%;
-    height: 100px;
-    margin-bottom: 0px;
-    background: black;
-}
+            body {
+                width: 100%;
+                font-family: 'Open Sans', sans-serif;
+                background-color: #63a4ff;
+                background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+            }
+            
+            .sports {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between
+            }
+            
+            .leafs {
+                width: 20%;
+            }
+            
+            .ticats {
+                width: 18%;
+                margin-right: 10;
+            }
+            
+            nav {
+                margin-top: 25px;
+                font-family: 'Open Sans', sans-serif;
+            }
+            
+            a:link {
+                color: rgb(0, 255, 34);
+            }
+            
+            a:visited {
+                color: rgb(27, 19, 126);
+            }
+            
+            a:hover {
+                color: rgb(200, 255, 0);
+            }
+            
+            .content {
+                margin-top: 5px;
+                text-align: center;
+            }
+            
+            .content img {
+                width: 90%%;
+                max-width: 400px;
+                height: auto;
+                margin: 5px;
+            }
+            
+            .success {
+                font-family: 'Satisfy', cursive;
+                width: 100%x;
+                max-width: 90%;
+                margin: 5px;
+                ;
+            }
+            
+            .sports2 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between
+            }
+            
+            .bluejays {
+                width: 20%;
+            }
+            
+            .bills {
+                width: 25%;
+            }
+            
+            footer {
+                width: 100%;
+                height: 50px;
+                background: gray;
+            }
+            
+            .socials {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between
+            }
+            /* Media query for 500px */
+            
+            @media only screen and (min-width: 500px) {
+                body {
+                    background-color: #008080;
+                    width: 100%;
+                    font-family: 'Open Sans', sans-serif;
+                }
+                .sports {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between
+                }
+                .leafs {
+                    width: 20%;
+                }
+                .ticats {
+                    width: 18%;
+                    margin-right: 10;
+                }
+                nav {
+                    font-family: 'Open Sans', sans-serif;
+                }
+                a:link {
+                    color: rgb(0, 255, 34);
+                }
+                a:visited {
+                    color: rgb(27, 19, 126);
+                }
+                a:hover {
+                    color: rgb(200, 255, 0);
+                }
+                .content {
+                    margin-top: 5px;
+                    text-align: center;
+                }
+                .content img {
+                    width: 100%;
+                }
+                .success {
+                    font-family: 'Satisfy', cursive;
+                    font-size: 1.2rem;
+                    width: 100%x;
+                    padding: 0px 15px;
+                    top: -10px;
+                }
+                .sports2 {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between
+                }
+                .bluejays {
+                    width: 20%;
+                }
+                .bills {
+                    width: 25%;
+                }
+                footer {
+                    width: 100%;
+                    height: 50px;
+                    background: gray;
+                }
+                .socials {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between
+                }
+                .linkedin {
+                    margin-left: 10px;
+                }
+                .email {
+                    margin-right: 15px;
+                }
+            }
